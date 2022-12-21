@@ -12,7 +12,7 @@ public class SucesionAscendente extends Thread {
 
     @Override
     public void run() {
-        System.out.println(Thread.currentThread().getName() + " está ejecutándose.");
+        System.out.println(Thread.currentThread().getName() + " se ha iniciado.");
         for (int i = inicio; i < fin; i++) {
             System.out.println(Thread.currentThread().getName() + ":" + i);
         }
